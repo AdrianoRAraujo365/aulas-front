@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista com estilos</title>
+
+    <style>
+        /* Folha de Estilos INTERNA */
+
+        /* Regra para o h1 */
+        h1 { 
+            color: red;
+            text-align: center; 
+        }
+
+        /* Regra para parágrafos */
+
+        p { 
+            font-size: 26px;
+            font-style: italic;
+            font-family: Verdana; 
+        }
+
+        /* Regra para o h2 */
+
+        h2 {
+            background-color: #2f2f2f;
+            color: white;
+            border-radius: 10px;
+
+            /* Espacamento nas 4 direções */
+            /**padding: 20px;*/
+
+            /* Espacamento especifico
+            para a direção desejada */
+            padding-left: 20px;
+            padding-bottom: 10px;
+            padding-top: 30px;
+
+        }
+
+        /* Regra para tag b */
+
+        b { 
+            text-transform: uppercase;
+            background: linear-gradient(red,green,blue);
+        }
+    </style>
+</head>
+<body>
+    <p><a href="links.html">Voltar ao exemplo links</a></p>
+
+    <mark>CSS INTERNO</mark>
+
+    <h1>Trabalhando com listas</h1>
+    <p>Listas são usadas para criar relação de itens.</p>
+
+    
+    <h2>Lista não-ordenada</h2>
+    <p>Usada para itens em que a ordem <b>não importa</b>.</p>
+
+    <ul>
+        <li>Açucar</li>
+        <li>Carne</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <h2>Lista ordenada</h2>
+    <p>Usada para itens em que a ordem <b>importa</b>.</p>
+    <ol>
+        <li>A Sociedade do Anel</li>
+        <li>As Duas Torres</li>
+        <li>O Retorno do Rei</li>
+
+    </ol>
+    <h2>Listas Aninhadas(lista dentro de lista)</h2>
+    
+    <ul>
+        <li>Salgados
+            <ul>
+                <li>Pizza</li>
+                <li>Esfiha</li>
+                <li>Coxinha</li>
+            </ul>
+        </li>
+        <li>Doces
+            <ul>
+                <li>Bolos</li>
+                <li>Tortas</li>
+                <li>Sorvetes</li>
+                <li>Rosquinhas</li>
+
+            </ul>
+        </li>
+        <li>Bebidas
+            <ul>
+                <li>Refrigerantes</li>
+                <li>Cervejas</li>
+                <li>Aguas
+                    <ul>
+                        <li>Agua com gas</li>
+                        <li>Agua sem gas</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    
+
+</body>
+</html>
